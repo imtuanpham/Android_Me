@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements MasterListFragmen
     // Define the behavior for onImageSelected
     public void onImageSelected(int position) {
         // Create a Toast that displays the position that was clicked
-        Toast.makeText(this, "Position clicked = " + position, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Position touched = " + position, Toast.LENGTH_SHORT).show();
 
         // bodyPartNumber will be = 0 for the head fragment, 1 for the body, and 2 for the leg fragment
         // Dividing by 12 gives us these integer values because each list of images resources has a size of 12
